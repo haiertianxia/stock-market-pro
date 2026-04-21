@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-18 21:34",
+  "results": [
+    {
+      "ticker": "NVDA",
+      "name": "\u82f1\u4f1f\u8fbe",
+      "sector": "AI/\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:24:04.458492"
+    },
+    {
+      "ticker": "AMD",
+      "name": "\u8d85\u5a01\u534a\u5bfc\u4f53",
+      "sector": "\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:24:34.586495"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "sector": "AI/\u79d1\u6280",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:25:04.733486"
+    },
+    {
+      "ticker": "AI",
+      "name": "C3.ai",
+      "sector": "AI/\u79d1\u6280",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:25:35.012105"
+    },
+    {
+      "ticker": "MDB",
+      "name": "MongoDB",
+      "sector": "AI/\u79d1\u6280",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:26:05.162754"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "sector": "AI/\u79d1\u6280",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:26:35.303950"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:27:05.444633"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:27:35.585373"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "sector": "\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:28:05.722702"
+    },
+    {
+      "ticker": "TSM",
+      "name": "\u53f0\u79ef\u7535",
+      "sector": "\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:28:35.867154"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:29:06.020642"
+    },
+    {
+      "ticker": "BNTX",
+      "name": "BioNTech",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:29:36.155037"
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:30:06.297715"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:30:36.438374"
+    },
+    {
+      "ticker": "CRSP",
+      "name": "CRISPR Therapeutics",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:31:06.572568"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "\u8c37\u6b4c",
+      "sector": "AI/\u79d1\u6280",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:31:36.853652"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "\u5fae\u8f6f",
+      "sector": "AI/\u79d1\u6280",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:32:06.953706"
+    },
+    {
+      "ticker": "SOUN",
+      "name": "\u58f0\u7f51",
+      "sector": "AI/\u79d1\u6280",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:32:37.061948"
+    },
+    {
+      "ticker": "MU",
+      "name": "\u7f8e\u5149\u79d1\u6280",
+      "sector": "\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:33:07.203046"
+    },
+    {
+      "ticker": "TSM",
+      "name": "\u53f0\u79ef\u7535",
+      "sector": "\u534a\u5bfc\u4f53",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:33:37.358517"
+    },
+    {
+      "ticker": "NKTR",
+      "name": "Nektar",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:34:07.499891"
+    },
+    {
+      "ticker": "SGEN",
+      "name": "Seagen",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "current_price": null,
+      "change_percent": 0,
+      "market_cap": null,
+      "pe_ratio": null,
+      "timestamp": "2026-04-18T21:34:37.645922"
+    }
+  ]
+}

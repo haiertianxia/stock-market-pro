@@ -1,0 +1,151 @@
+{
+  "watchlist": [
+    {
+      "ticker": "NVDA",
+      "name": "\u82f1\u4f1f\u8fbe",
+      "sector": "AI/\u534a\u5bfc\u4f53",
+      "notes": "AI GPU\u9f99\u5934"
+    },
+    {
+      "ticker": "AMD",
+      "name": "\u8d85\u5a01\u534a\u5bfc\u4f53",
+      "sector": "\u534a\u5bfc\u4f53",
+      "notes": "CPU/GPU\u5382\u5546"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "sector": "AI/\u79d1\u6280",
+      "notes": "AI+\u5927\u6570\u636e\u5206\u6790"
+    },
+    {
+      "ticker": "AI",
+      "name": "C3.ai",
+      "sector": "AI/\u79d1\u6280",
+      "notes": "\u4f01\u4e1aAI\u8f6f\u4ef6"
+    },
+    {
+      "ticker": "MDB",
+      "name": "MongoDB",
+      "sector": "AI/\u79d1\u6280",
+      "notes": "\u4e91\u6570\u636e\u5e93"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "sector": "AI/\u79d1\u6280",
+      "notes": "CDN\u4e0e\u7f51\u7edc\u5b89\u5168"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "\u534a\u5bfc\u4f53",
+      "notes": "\u534a\u5bfc\u4f53\u8bbe\u5907"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "\u534a\u5bfc\u4f53",
+      "notes": "\u534a\u5bfc\u4f53\u8bbe\u5907"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "sector": "\u534a\u5bfc\u4f53",
+      "notes": "\u5149\u523b\u673a\u9f99\u5934"
+    },
+    {
+      "ticker": "TSM",
+      "name": "\u53f0\u79ef\u7535",
+      "sector": "\u534a\u5bfc\u4f53",
+      "notes": "\u6676\u5706\u4ee3\u5de5\u9f99\u5934"
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "notes": "mRNA\u6280\u672f\u5e73\u53f0"
+    },
+    {
+      "ticker": "BNTX",
+      "name": "BioNTech",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "notes": "mRNA\u75ab\u82d7/\u836f\u7269"
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "notes": "\u751f\u7269\u5236\u836f"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "notes": "CRISPR\u57fa\u56e0\u7f16\u8f91"
+    },
+    {
+      "ticker": "CRSP",
+      "name": "CRISPR Therapeutics",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "notes": "CRISPR\u57fa\u56e0\u7f16\u8f91"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "\u8c37\u6b4c",
+      "sector": "AI/\u79d1\u6280",
+      "notes": "AI\u5927\u6a21\u578b+\u641c\u7d22\u5e7f\u544a"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "\u5fae\u8f6f",
+      "sector": "AI/\u79d1\u6280",
+      "notes": "Copilot AI\u589e\u503c"
+    },
+    {
+      "ticker": "SOUN",
+      "name": "\u58f0\u7f51",
+      "sector": "AI/\u79d1\u6280",
+      "notes": "\u5b9e\u65f6\u901a\u4fe1AI\uff0c\u5c0f\u5e02\u503c"
+    },
+    {
+      "ticker": "MU",
+      "name": "\u7f8e\u5149\u79d1\u6280",
+      "sector": "\u534a\u5bfc\u4f53",
+      "notes": "\u5b58\u50a8\u82af\u7247\u5468\u671f\u53cd\u8f6c"
+    },
+    {
+      "ticker": "TSM",
+      "name": "\u53f0\u79ef\u7535",
+      "sector": "\u534a\u5bfc\u4f53",
+      "notes": "\u6676\u5706\u4ee3\u5de5\u9f99\u5934"
+    },
+    {
+      "ticker": "NKTR",
+      "name": "Nektar",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "notes": "\u4e34\u5e8a\u9636\u6bb5\uff0c\u5c0f\u5e02\u503c"
+    },
+    {
+      "ticker": "SGEN",
+      "name": "Seagen",
+      "sector": "\u751f\u7269\u533b\u836f",
+      "notes": "ADC\u836f\u7269\u6280\u672f\u9f99\u5934"
+    }
+  ],
+  "description": "\u6bcf\u65e5\u76d8\u524d\u76d8\u540e\u5206\u6790 - \u7b5b\u90095-10\u500d\u6f5c\u529b\u80a1",
+  "schedule": {
+    "preMarket": "20:40 Asia/Shanghai (\u7f8e\u80a1\u76d8\u524d)",
+    "afterHours": "05:10 Asia/Shanghai (\u7f8e\u80a1\u76d8\u540e)"
+  },
+  "analysisRules": {
+    "lookForFiveTenBagger": true,
+    "giveBuySell": true,
+    "stopLoss": true,
+    "sectors": [
+      "AI/\u79d1\u6280",
+      "\u534a\u5bfc\u4f53",
+      "\u751f\u7269\u533b\u836f"
+    ]
+  }
+}
