@@ -1,50 +1,47 @@
 # 美股潜力股分析工具 — 架构设计
 
-版本：v1.0 | 日期：2026-05-14
+版本：v1.0 | 日期：2026-05-14 | Mermaid 图表
 
 ---
 
 ## 一、项目概述
 
-美股潜力股分析工具，每日盘前盘后自动更新股票池价格和基本面数据，筛选 5-10 倍潜力股。
-
-聚焦三大赛道：AI/科技、半导体、生物医药。
+美股潜力股分析工具，每日盘前盘后自动更新股票池价格和基本面数据，筛选 5-10 倍潜力股。聚焦三大赛道：AI/科技、半导体、生物医药。
 
 ---
 
-## 二、技术栈
+## 二、系统架构
 
-| 组件 | 技术 | 说明 |
-|------|------|------|
-| 数据获取 | yfinance | Yahoo Finance Python API |
-| 数据存储 | JSON 文件 | 本地文件存储 |
-| Web 界面 | Python Flask/FastAPI | 轻量 Web 服务 |
-| 可视化 | matplotlib / plotly | 图表生成 |
+```mermaid
+C4Container
+    Person(user, "投资者")
+    System_Boundary(s, "美股分析工具") {
+        Container(web, "Web UI", "Python", "Flask/FastAPI")
+        Container(core, "核心分析引擎", "Python", "数据获取+筛选")
+        ContainerDb(cache, "缓存", "JSON文件", "本地存储")
+    }
+    System_Ext(yf, "Yahoo Finance API", "yfinance")
 
----
-
-## 三、系统架构
-
+    Rel(user, web, "HTTPS")
+    Rel(web, core, "调用")
+    Rel(core, yf, "数据获取")
+    Rel(core, cache, "缓存")
+    Rel(cache, web, "读取")
 ```
-┌────────────────────────────────────────────────────────────┐
-│                      Web UI (web_app.py)                   │
-│                   端口: 由 start_web.sh 配置                │
-└─────────────────────────┬──────────────────────────────────┘
-                          │
-┌─────────────────────────▼──────────────────────────────────┐
-│                    main.py                                  │
-│  ┌────────────────────────────────────────────────────┐  │
-│  │  Stock Screener                                    │  │
-│  │  - 财务指标筛选（P/E、增长率、ROE）                 │  │
-│  │  - 赛道分类（AI/科技、半导体、生物医药）            │  │
-│  │  - 潜力评级（5-10x bagger 标记）                  │  │
-│  └────────────────────────────────────────────────────┘  │
-│  ┌────────────────────────────────────────────────────┐  │
-│  │  Data Fetcher (yfinance)                           │  │
-│  │  - 每日盘前盘后价格更新                            │  │
-│  │  - 财务数据抓取                                    │  │
-│  └────────────────────────────────────────────────────┘  │
-└────────────────────────────────────────────────────────────┘
+
+---
+
+## 三、核心数据流
+
+```mermaid
+flowchart LR
+    A["main.py 定时运行"] --> B["yfinance 获取行情数据"]
+    B --> C["基本面筛选 PE/ROE/增长率"]
+    C --> D["赛道分类 AI/半导体/生物医药"]
+    D --> E["潜力评级 5-10x bagger"]
+    E --> F["生成分析报告 JSON"]
+    F --> G["web_app.py 提供 Web 界面"]
+    G --> H["用户查看"]
 ```
 
 ---
@@ -55,27 +52,14 @@
 |------|------|
 | main.py | 数据获取 + 筛选逻辑 |
 | web_app.py | Web 界面 |
-| scripts/ | 定时任务脚本 |
-| SKILL.md | OpenClaw skill 格式（用于集成）|
+| scripts/ | 定时任务 |
+| SKILL.md | OpenClaw skill 格式 |
 
 ---
 
-## 五、数据文件
-
-| 文件 | 说明 |
-|------|------|
-| stock_cache.json | 股票缓存数据 |
-| stock_analysis_YYYYMMDD.json | 每日分析报告 |
-| stock_recommendation_history.json | 推荐历史 |
-
----
-
-## 六、部署
+## 五、部署
 
 ```bash
-# 启动 Web 服务
 ./start_web.sh
-
-# 手动运行分析
-python main.py
+python main.py  # 手动运行分析
 ```
