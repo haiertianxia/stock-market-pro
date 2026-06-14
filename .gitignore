@@ -3,3 +3,10 @@ stock_cache.json
 __pycache__/
 *.pyc
 
+# Logs and PIDs
+*.log
+*.pid
+
+# Local state (not shared)
+alert_state.json
+

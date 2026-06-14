@@ -12,8 +12,9 @@ import os
 import argparse
 from datetime import datetime
 
-HISTORY_FILE = "/home/admin/.openclaw/workspace/skills/stock-market-pro/scripts/stock_recommendation_history.json"
-WATCHLIST_FILE = "/home/admin/.openclaw/workspace/skills/stock-market-pro/scripts/stock_watchlist.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+HISTORY_FILE = os.path.join(SCRIPT_DIR, "stock_recommendation_history.json")
+WATCHLIST_FILE = os.path.join(SCRIPT_DIR, "stock_watchlist.json")
 
 def load_history():
     """加载历史推荐数据"""
@@ -196,7 +197,7 @@ def run_new_analysis():
     print("=" * 60)
 
     # 保存每日结果文件 (保留原有功能)
-    output_file = f"/home/admin/.openclaw/workspace/stock_analysis_{datetime.now().strftime('%Y%m%d')}.json"
+    output_file = os.path.join(SCRIPT_DIR, f"stock_analysis_{datetime.now().strftime('%Y%m%d')}.json")
     with open(output_file, 'w') as f:
         json.dump({
             'date': datetime.now().strftime('%Y-%m-%d %H:%M'),
